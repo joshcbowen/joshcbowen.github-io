@@ -1,0 +1,57 @@
+
+/* this css is for the index.css */
+
+
+
+body{
+    background-color: rgb(243, 193, 236);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#main-nav{
+    font-variant-caps:all-small-caps;
+    font-size:1rem;
+}
+
+h1, h2 
+{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(115, 123, 238);
+    font-variant: small-caps; 
+}
+
+h1 {
+    font-size: 2.75rem;
+} 
+
+h2 {
+    font-size: 2.75rem;
+}
+
+p {
+    font-size: 1.5rem ;
+    color: rgb(108, 167, 85);
+}
+
+
+.fave-food{
+    color: rgb(240, 74, 74);
+}
+
+.name{
+    color: rgb(48, 134, 120);
+}
+
+.fave-places-list{
+    font-size: 1.5rem;
+    color: rgb(108, 167, 85);
+    font-style: oblique;
+    font-weight: 900;
+}
+
+.fave-food-list{
+    font-size: 1.5rem ;
+    color: rgb(108, 167, 85);
+    font-style: oblique;
+    font-weight: 900;
+}
