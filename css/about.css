@@ -31,6 +31,8 @@ h2 {
 p {
     font-size: 1.5rem ;
     color: rgb(108, 167, 85);
+    font-style: oblique;
+    font-weight: 900;
 }
 
 
