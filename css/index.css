@@ -6,13 +6,43 @@
 body{
     background-color: rgb(149, 245, 140);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+li {
+    list-style: none;
+}
+ 
+.icon-row-1{
+    height: 10vh;
+    background-image: url(/img/halloween-horror\ icon.png);
+    background-repeat: repeat-x;
 }
 
 #main-nav{
     font-variant-caps:all-small-caps;
     font-size:1rem;
     
+}
+
+#main-nav a:link {
+    color: rgb(61, 47, 29)
+}
+
+#main-nav a:visited {
+    color:rgb(0, 0, 0)
+}
+
+#main-nav a:hover {
+    color:royalblue;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    height: 80vh;
+    background-image: url(/img/Halloween_Pumpkins_\(Unsplash\).jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
 }
 
 h1, h2 
