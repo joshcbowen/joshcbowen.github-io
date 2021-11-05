@@ -3,9 +3,17 @@
 /* this is a comment */
 /* this is another comment */
 
+/* Google Fonts
+
+font-family: 'Corben', cursive;
+font-family: 'Nobile', sans-serif;
+*/
+
+
 body{
-    background-color: rgb(149, 245, 140);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(170, 214, 166);
+    font-family: 'Nobile', sans-serif;
+    font-weight: 50 ;
 }
 
 li {
@@ -45,10 +53,11 @@ header{
     background-position: center;
 }
 
-h1, h2 
-{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(252, 145, 237);
+h1, h2 {
+    font-family: 'Corben', cursive;
+    color: rgb(221, 105, 206);
     font-variant: small-caps; 
+    font-weight: 400;
 }
 
 h1 {
