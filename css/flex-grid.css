@@ -1,0 +1,143 @@
+/*css reset*/
+
+/*google fonts
+font-family: 'Cabin', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+/*end of CSS reset*/
+
+
+html {
+    box-sizing: border-box;
+    margin: 
+    padding
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+ /* end of CSS reset */
+
+ body {
+     font-family: 'Roboto', sans-serif;
+     font-size: 1.2 rem;
+     line-height: 1.4rem;
+ }
+
+ #wrapper {
+    background-image: url(/img/snowflake-background.jpeg);
+    background-position: top;
+    background-size: cover;
+ }
+
+ h1, h2 ,h3 {
+     font-family: 'Cabin', sans-serif;
+ }
+
+ h1{
+     font-size: 3rem;
+     font-weight: 700;
+ }
+
+ h2, h3 {
+     font-weight: 700;
+     font-size: 2rem;
+ }
+
+ main{
+     width: 90%;
+     padding: 10px 20px;
+     border-radius: 10px;
+     margin: 10px auto;
+     background-color: rgb(255, 255, 255);
+     color: rgb(118, 21, 138);
+ }
+
+ nav{
+     height: 50px;
+     background-color: rgb(255, 255, 255);
+     margin-bottom: 50px;
+     font-size: 1.8rem;
+ }
+
+ nav ul {
+     display: flex;
+     justify-content: space-around;
+     font-variant-caps: all-petite-caps;
+     list-style-type: none;
+ }
+
+ .container {
+     display: grid;
+     grid-template-areas: 
+        "header header header header header"
+        "specs image image image supplies"
+        "instructions instructions instructions directions directions"
+        "nutrition nutrition nutrition video video"
+        "footer footer footer footer footer";
+ }
+
+.row1-head {
+    grid-area: header;
+    margin: 20px;
+}
+
+.row2-left {
+    grid-area: specs;
+    padding-left: 30px;
+}
+
+.row2-center {
+    grid-area: image;
+    justify-self: center;
+}
+
+img {
+    width: 400px;
+    border: 10px dotted rgb(139, 18, 187);
+    padding: 10px;
+}
+
+.row2-right {
+grid-area: supplies;
+padding-right: 60px;
+}
+
+.row3-left {
+    grid-area: instructions;
+}
+
+.row3-right {
+    grid-area: directions;
+}
+
+.row4-left {
+    grid-area: nutrition;
+}
+ 
+.row4-right {
+    grid-area: video;
+    padding-bottom: 20px;
+}
+
+footer {
+    grid-area: footer;
+    font-size: .9rem;
+}
+
+hr {
+    border-top: 5px dotted rgb(106, 47, 155);
+}
+
+a {
+    text-decoration-style: wavy;
+    text-underline-offset: 1px;
+    color: rgb(145, 49, 235);
+}
+
+a:hover {
+    color:rgb(51, 19, 70)
+}
