@@ -141,3 +141,40 @@ a {
 a:hover {
     color:rgb(51, 19, 70)
 }
+
+
+
+@media ( max-width: 600px ) {
+
+    body{
+        font-size: 1rem;
+    }
+   
+    #wrapper{
+    background-image: none ;
+    }
+
+    .container {
+        display: block;
+        width: 100%
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    hr {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    nav {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+   
+}
